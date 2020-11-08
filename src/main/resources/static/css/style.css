@@ -1,0 +1,62 @@
+#container{
+    display: flex;
+    flex-direction: column;    
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+    /*height: calc(100% - 220px)*/
+}
+
+#category{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.category_item{
+    display: block;
+    padding-top: 10px;
+}
+
+#book_list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.book_item{    
+    width: 350px;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.book_image{
+
+}
+
+.book_properties{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.book_property_name{
+    padding-bottom: 5px;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+#header{
+    margin-bottom: 20px;
+}
+
+#footer{
+    margin-top: 20px;
+}
